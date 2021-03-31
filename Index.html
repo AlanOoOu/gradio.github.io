@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>G Radio</title>
+  </head>  
+  <body>
+    
+      <h1>
+          Bienvenue sur le site de GRadio
+      </h1>
+      <h2>Un nouveau site arrive bientôt ,mais vous pouvez toujours écoutez votre webradio favorite !</h2>
+    <link href="https://radio.ready2play.fr:1880/media/static/css/player/base.css" rel="stylesheet" type="text/css" />
+<link href="https://radio.ready2play.fr:1880/media/static/css/player/style-14.css" rel="stylesheet" type="text/css" />
+<link href="https://radio.ready2play.fr:1880/media/static/css/ui/jquery.ui.slider.css" rel="stylesheet" type="text/css" />
+<script>
+if (typeof jQuery == 'undefined') { 
+  var i = "i";
+  document.write('<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></scr' + i + 'pt>');
+}
+</script>
+<script type="text/javascript" src="https://radio.ready2play.fr:1880/media/static/js/jplayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="https://radio.ready2play.fr:1880/media/static/js/jplayer/jquery-ui-1.10.2.custom.min.js"></script>
+<script type="text/javascript" src="https://radio.ready2play.fr:1880/media/static/js/jplayer/modernizr.js"></script>
+<script type="text/javascript" src="https://radio.ready2play.fr:1880/media/static/js/jplayer/rt_pl.js"></script>
+<div id="rtJpID-1"></div>
+<div class="rtplwrapperForIe">
+<div id="rtplayer-1" class="rtplmain_window gradient_style-14">
+<a id="button_play_stop-1" class="rtplbutton_play_stop button_play_stop_style-14" href="#"></a>
+<div id="current_time-1" class="rtplcurrent_time">00:00:00</div>
+<a id="rtplmute-1" class="rtplmute button_mute_style-14" href="#"></a>
+<div id="rtplvolume-1" class="rtplvolume"></div>
+<a id="rtplmaxvol-1" class="rtplmaxvol button_max_vol_style-14" href="#"></a>
+</div>
+</div>
+<script>$(document).ready( function(){ new RTPlayer( 1, 50, true, "https://radio.ready2play.fr:1880",  "mp3", {"mp3": "http://betterstream.ready2play.fr:8000/GRadio"}, "fr")  });</script>
+  </body>
+</html>
